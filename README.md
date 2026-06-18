@@ -14,19 +14,29 @@ Amazon Prime Video hosts thousands of movies and TV shows. Understanding content
 Dataset
 titles.csv
 Contains:
-title
-show_type
-release_year
-genres
-imdb_score
+id	
+title	
+type	
+description	
+release_year	
+age_certification	
+runtime	
+genres	
+production_countries	
+seasons	
+imdb_id	
+imdb_score	
+imdb_votes	
+tmdb_popularity	
 tmdb_score
-runtime
+
 credits.csv
 Contains:
-actor names
-director names
-character names
-roles
+person_id	
+id	
+name	
+character	
+role
 Key Objectives
 Analyze Movies vs TV Shows
 Identify dominant genres
